@@ -3,7 +3,7 @@ let cc = document.getElementById("projectsContainer");
 
 let card = (icon, title, desc, lang, link, iconSize=24) => `
 
-            <div class="card margin flex" onclick="location.replace('${link}')">
+            <div class="card margin flex" onclick="open('${link}')">
                 
                 <div class="row grow flex">
                     
