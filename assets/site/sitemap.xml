@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>https://artony4444.github.io/</loc>
+        <priority>1</priority>
+    </url>
+    <url>
+        <loc>https://artony4444.github.io/particle-life/</loc>
+        <priority>0.75</priority>
+    </url>
+    <url>
+        <loc>https://github.com/artony4444/static-chess</loc>
+        <priority>0.25</priority>
+    </url>
+<urlset>
