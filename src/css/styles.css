@@ -1,0 +1,153 @@
+
+
+:root {
+    --space: 10px;
+    
+    --colorB1: #0d0d0d;
+    --colorB2: #202020;
+    --colorB3: #2e2e2e;
+    
+    --colorW1: #FFFFFF;
+    --colorW2: #e0e0e0;
+    --colorW3: #868686;
+    
+    --colorG1: #3f8e3b;
+}
+
+* { color: var(--colorW2); }
+
+
+/* Fonts */
+
+.poppins-regular
+{
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-medium
+{
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.poppins-semibold
+{
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+
+
+
+/* 18 14 16 12 */
+
+
+/* background */
+
+body { margin: 0; }
+
+.screen
+{
+    width: 100vw;
+    height: 100vh;
+}
+
+
+
+
+
+
+/* Elements */
+
+.square
+{
+    min-height: max(40vh, 40vw);
+    background-color: var(--colorB1);
+}
+
+.logo
+{
+    width: max(11vh, 11vw);
+    border-radius:50%;
+}
+
+.content
+{
+    height: max(60vh, 60vw);
+    background-color: var(--colorB2);
+    overflow: scroll;
+}
+
+.card
+{
+    // min-height: max(9vh, 9vw);
+    background-color: var(--colorB3);
+    border-radius: 10px;
+}
+
+.card:hover
+{
+    background-color: #3a3a3a; // #102c3e;
+    outline: 1px solid #5d5d5d; // #1183cf;
+}
+
+
+
+
+
+
+
+
+/* Components */
+
+.block { background-color: #ffffff2f; }
+.margin  { margin:  var(--space); }
+.padding { padding: var(--space); }
+.fheight { height: 100%; }
+.fwidth { width: 100%; }
+.center { display: flex; flex-direction: column; justify-content: center; align-items: center; }
+
+.flex { display: flex; }
+.row { flex-direction: row; }
+.column { flex-direction: column; }
+.spacebetween { justify-content: space-between; }
+.spacearound { justify-content: space-around; }
+.grow { flex-grow: 1; }
+.shrink { flex-shrink: 1; }
+.noshrink { flex-shrink: 0;}
+
+.outline { outline: 1px solid #ffffff1f; }
+
+.box
+{
+    min-width: 20px;
+    height: 100%;
+    // outline: 1px solid #ffffff1f;
+    // background-color: #ffffff17;
+}
+
+.disable-user-select
+{
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+}
+
+
+/* FLEX
+
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+flex-flow: row nowrap;
+justify-content: center;
+align-items: center;
+
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+*/
+    
